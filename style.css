@@ -87,10 +87,43 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     border: 2px solid #ddd;
+    font-family: "Merriweather", sans-serif;
     font-size: 0.8rem;
-    color: #2b2e3b;
+    color: #f0f0f0;
+    background-color: #2b2e3b;
 }
 
 .long-input:focus {
     border-color: #6a92a6;
 }
+
+.long-input:invalid {
+    border-color: #b68990;
+}
+
+.clickables {
+    margin: 0 48px;
+}
+
+.informed {
+    margin: 48px 0;
+    font-size: 0.9rem;
+}
+
+.button {
+    padding: 18px 64px;
+    font-size: 1.1rem;
+    font-family: "Merriweather", sans-serif;
+    background-color: #b68990;
+    color: #f0f0f0;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+.button:hover {
+    background-color: #6a92a6;
+    cursor: pointer;
+}
+
+
